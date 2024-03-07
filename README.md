@@ -50,7 +50,7 @@ In WordPress admin, you should now see a "Theme Settings" menu item. Navigate to
 
 ### Styling
 If you want a big header as the form title, add a label as the first element in the form. Go to <HTML/> tab and add "form-title" as class name to the label tag. </br>
-example: <div class="field text  form-title"><label for="">Form Title</label>
+example: \<div class="field text  form-title"><label for="">Form Title</label>
 
 ## Nomenclature
 
