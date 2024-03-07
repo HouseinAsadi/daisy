@@ -20,7 +20,7 @@ To create a new form. Login with an admin user and open WP dashboard.in "Contact
 **Create a new form from the scratch:**
 1. press "Add New".
 2. name the form. 
-3. on the right panel, under information fill the 'from key' field with a unique name. If you want this form to be pre populated by the last record of logged-in users, this label should contain the [[#Form Key String]] (e.g. "ukb-form") in the name. For example: nice-ukb-form-12
+3. on the right panel, under information fill the 'from key' field with a unique name. If you want this form to be pre populated by the last record of logged-in users, this label should contain the [Form Key String](#form-key-string) (e.g. "ukb-form") in the name. For example: nice-ukb-form-12
 4. design your form by deleting/adding new fields and changing the layout. 
 5. add a dynamic hidden field and name it "userID" and enter "CF7_get_current_user key='ID'" as value.
 6. add a dynamic hidden field and name it "form_key", then copy/past the form key in value field.
@@ -29,7 +29,7 @@ To create a new form. Login with an admin user and open WP dashboard.in "Contact
 **duplicate and edit template form:**
 1. hover over template form and press "duplicate"
 2. rename the form.
-3. on the right panel, under information edit the 'from key' field and choose a unique name. If you want this form to be pre populated by the last record of logged-in user, this label should contain the [[#Form Key String]] (e.g. "ukb-form") in the name. For example: nice-ukb-form-12
+3. on the right panel, under information edit the 'from key' field and choose a unique name. If you want this form to be pre populated by the last record of logged-in user, this label should contain the [Form Key String](#form-key-string) (e.g. "ukb-form") in the name. For example: nice-ukb-form-12
 4. design you form by deleting/adding new fields and changing the layout. 
 5. leave the hidden as they are. especially userID and form_key.
 6. update the form.
