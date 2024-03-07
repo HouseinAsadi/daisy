@@ -38,7 +38,7 @@ To create a new form. Login with an admin user and open WP dashboard.in "Contact
 You can define the page to redirect after clicking on the submit button. In order to populate the form with the user's last record, you need to reload the form by refreshing the page. So if you want to see the content after submission, redirect to the same page. 
 
 
-Back to the forms list. Copy the new form's short code (e.g. [cf7form cf7key="ukb-form-1"]).
+Back to the forms list. Copy the new form's short code (e.g. [cf7form cf7key="ukb-form-1"]).</br>
 Go to "Pages" tab and create a new page. Paste the short code and publish the page.
 
 
@@ -49,15 +49,15 @@ In WordPress admin, you should now see a "Theme Settings" menu item. Navigate to
 
 
 ### Styling
-If you want a big header as the form title, add a label as the first element in the form. Go to <HTML/> tab and add "form-title" as class name to the label tag. 
+If you want a big header as the form title, add a label as the first element in the form. Go to <HTML/> tab and add "form-title" as class name to the label tag. </br>
 example: <div class="field text  form-title"><label for="">Form Title</label>
 
 ## Nomenclature
 
 ### Modules
-Therapy modules IDs start with "m" and the module number (initially 1-99) followed by sub-module letter (A-Z) 
-m\[number]\[letter]
-examples: m3b, m1a, m26j
+Therapy modules IDs start with "m" and the module number (initially 1-99) followed by sub-module letter (A-Z) </br>
+m\[number]\[letter]</br>
+examples: m3b, m1a, m26j</br>
 
 ### Form keys
 **A part of the form key must contain the Form Key String ([Form Key String](#form-key-string)) in order to make it editable.**</br>
