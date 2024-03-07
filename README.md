@@ -1,7 +1,7 @@
 # daisy
 
-# Forms
-# Plugins used:
+## Forms
+### Plugins used:
 
 **Contact Form 7**: https://daisy.ukbonn.de/wp-admin/plugin-install.php?tab=plugin-information&plugin=contact-form-7&TB_iframe=true&width=600&height=550
 
@@ -13,7 +13,7 @@
 
 Before working with forms, get familiar yourself with WordPress and above plugins and their terminology.
 
-# How to Create an Editable quiz form 
+#### How to Create an Editable quiz form 
 
 To create a new form. Login with an admin user and open WP dashboard.in "Contact" "tab, you will see the list of forms.
 
@@ -34,7 +34,7 @@ To create a new form. Login with an admin user and open WP dashboard.in "Contact
 5. leave the hidden as they are. especially userID and form_key.
 6. update the form.
 
-## Redirect on Submission ##
+#### Redirect on Submission ##
 You can define the page to redirect after clicking on the submit button. In order to populate the form with the user's last record, you need to reload the form by refreshing the page. So if you want to see the content after submission, redirect to the same page. 
 
 
@@ -43,11 +43,11 @@ Go to "Pages" tab and create a new page. Paste the short code and publish the pa
 
 
 
-# Form Key String
+### Form Key String
 
 In WordPress admin, you should now see a "Theme Settings" menu item. Navigate to this page to change the Form Key String. It is used to detecting CF7 forms that should be editable and pre-populated for logged-in users. cf7 form keys must contain this string to function as desired.
 
 
-## Styling
+### Styling
 If you want a big header as the form title, add a label as the first element in the form. Go to <HTML/> tab and add "form-title" as class name to the label tag. 
 example: <div class="field text  form-title"><label for="">Form Title</label>
