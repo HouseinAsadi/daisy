@@ -60,8 +60,37 @@ m\[number]\[letter]
 examples: m3b, m1a, m26j
 
 ### Form keys
-**A part of the form key must contain the Form Key String ([Form Key String](#form-key-string)) in order to make it editable.**
+**A part of the form key must contain the Form Key String ([Form Key String](#form-key-string)) in order to make it editable.**</br>
 It contains the fixed string, module id from the previous section, and the number of the form in its module (1-99). For instance, if we have 4 forms in module: m2a, the form id number of the third form will be 3.
 use this pattern to create form keys:
 \[form key string ]-\[module id ]-\[form id number]
 examples: ukb-form-m2c-5, ukb-form-m1a-1, ukb-form-m26m-24
+
+
+## Corporate Identity ##
+# Color Pallet 
+
+### Primary Color Variations:
+**Elm** rgb(27,105,112)  #1B6970
+**Hippie** Blue rgb(79,156,163) #4F9CA3
+**Morning** Glory rgb(144,210,216) #90D2D8
+**Mint Tulip** rgb(185,236,241) #B9ECF1
+**Iceberg** rgb(220,238,244) #DCEEF4
+
+### Accent Color Variations:
+**Macaroni and Cheese** rgb(255,193,133) #FFC185
+**Colonial White** rgb(255,236,184) #FFECB8
+ 
+### Background Color:
+**Romance** rgb(255,254,252) #FFFEFC
+
+### Gray Range:
+**Tuatara** hsl(30,2%,20%) #343332
+**Ironside Gray** hsl(30,2%,40%) #686664
+**Dawn** hsl(30,2%,60%) #9B9997
+**Cloud** hsl(30,2%,80%) #CDCCCB
+**Quill Gray** hsl(30,2%,90%) #E6E6E5
+### Others:
+
+
+plugin: **Central Color Palette**
