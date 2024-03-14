@@ -95,3 +95,6 @@ examples: ukb-form-m2c-5, ukb-form-m1a-1, ukb-form-m26m-24</br>
 
 
 plugin: **Central Color Palette**
+
+### Font Family
+Lato: https://fonts.google.com/specimen/Lato
