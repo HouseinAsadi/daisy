@@ -96,11 +96,10 @@ examples: ukb-form-m2c-5, ukb-form-m1a-1, ukb-form-m26m-24</br>
 
 plugin: **Central Color Palette**
 
+### Font Family
+Lato: https://fonts.google.com/specimen/Lato
 
 ## Pages
 title the page using this pattern: m[module number]w[week number]: [title]
 example:
 m3w1: Was ist Stress überhaupt?
-
-### Font Family
-Lato: https://fonts.google.com/specimen/Lato
