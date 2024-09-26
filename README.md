@@ -42,7 +42,6 @@ Back to the forms list. Copy the new form's short code (e.g. [cf7form cf7key="uk
 Go to "Pages" tab and create a new page. Paste the short code and publish the page.
 
 
-
 ### Form Key String
 
 In WordPress admin, you should now see a "Theme Settings" menu item. Navigate to this page to change the Form Key String. It is used to detecting CF7 forms that should be editable and pre-populated for logged-in users. cf7 form keys must contain this string to function as desired.
@@ -103,3 +102,15 @@ Lato: https://fonts.google.com/specimen/Lato
 title the page using this pattern: m[module number]w[week number]: [title]
 example:
 m3w1: Was ist Stress überhaupt?
+
+## Users
+### Add new user
+login with your adminstrator account, and click on "Benutzer" on the left side panel. 
+press "Neue Benutzer hinzufügen" to create a new user.
+compose the username in following pattern: [module][participant ID] for example m3008
+in new user page add the username created with mentioned pattern. 
+add email : [username]@daisy.de
+set the password.
+uncheck "Benutzer Benachrichtigen" 
+set the user role to "Abonnent"
+press "nueuen benutzer hinzufügen" 
