@@ -23,7 +23,6 @@ To create a new form. Login with an admin user and open WP dashboard.in "Contact
 3. on the right panel, under information fill the 'from key' field with a unique name. If you want this form to be pre populated by the last record of logged-in users, this label should contain the [Form Key String](#form-key-string) (e.g. "ukb-form") in the name. For example: nice-ukb-form-12
 4. design your form by deleting/adding new fields and changing the layout. 
 5. add a dynamic hidden field and name it "userID" and enter "CF7_get_current_user key='ID'" as value.
-6. add a dynamic hidden field and name it "form_key", then copy/past the form key in value field.
 7. update the form.
 
 **duplicate and edit template form:**
